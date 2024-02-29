@@ -20,6 +20,9 @@ body {
   /* background-color: red; */
 }
 
+
+
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -115,7 +118,6 @@ nav {
   margin: 0 auto;
   margin-top: 100px;
   height: 130px;
-  /* background-color: red; */
   align-items: center;
 }
 
@@ -143,7 +145,15 @@ nav {
 
 .sec-2 {
   height: 115vh;
-  /* background-color: lightgreen; */
+  position: relative;
+}
+
+.logo-init{
+  width: 100%;
+  position: absolute;
+  height: 50px;
+  bottom: 50px;
+  /* background-color: red; */
 }
 
 video {
@@ -162,7 +172,8 @@ video {
   overflow: hidden;
 }
 
-.sec-3-h-1,.sec-3-h-2 {
+.sec-3-h-1,
+.sec-3-h-2 {
   font-size: 150px;
   width: fit-content;
   height: fit-content;
@@ -170,7 +181,7 @@ video {
   position: relative;
 }
 
-.sec-3-h-2{
+.sec-3-h-2 {
   transform: translateY(-30%);
 }
 
@@ -183,4 +194,27 @@ video {
   width: 0%;
   overflow-x: hidden;
   display: inline-block;
+}
+
+.sec-3-content {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.sec-3-content div {
+  overflow: hidden;
+}
+
+.sec-3-text span {
+  display: inline-block;
+  font-family: "Syne";
+}
+
+.tiger-logo {
+  position: fixed;
+  right: -200px;
+  bottom: 25px;
+  opacity: 0;
 }
